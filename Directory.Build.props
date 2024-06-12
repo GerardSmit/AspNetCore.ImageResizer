@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Gerard Smit</Authors>
+    <PackageProjectUrl>https://github.com/GerardSmit/AspNetCore.ImageResizer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GerardSmit/AspNetCore.ImageResizer</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <Version>0.0.1-alpha.1</Version>
+    <PackageVersion>$(Version)</PackageVersion>
+  </PropertyGroup>
+</Project>

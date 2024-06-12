@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>GerardSmit.AspNetCore.ImageResizer.ImageSharp2</PackageId>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <AssemblyName>GerardSmit.AspNetCore.ImageResizer.ImageSharp2</AssemblyName>
+        <RootNamespace>GerardSmit.AspNetCore.ImageResizer</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>GerardSmit.AspNetCore.ImageResizer.ImageSharp2</PackageId>
+        <Description>ImageSharp 2 support for GerardSmit.AspNetCore.ImageResizer</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AspNetCore.ImageResizer\AspNetCore.ImageResizer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SixLabors.ImageSharp" Version="2.1.8" />
+    </ItemGroup>
+
+</Project>

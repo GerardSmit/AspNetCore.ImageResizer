@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.ImageResizer", "src\AspNetCore.ImageResizer\AspNetCore.ImageResizer.csproj", "{E0ECD67E-8614-43D6-9B9B-88551782EE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.ImageResizer.Skia", "src\AspNetCore.ImageResizer.Skia\AspNetCore.ImageResizer.Skia.csproj", "{8F0C9D1B-AD6C-4159-BA84-8E4BBF439B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.ImageResizer.ImageSharp3", "src\AspNetCore.ImageResizer.ImageSharp3\AspNetCore.ImageResizer.ImageSharp3.csproj", "{0A0E4C10-5BD2-4623-958F-1E53239E9C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.ImageResizer.ImageSharp2", "src\AspNetCore.ImageResizer.ImageSharp2\AspNetCore.ImageResizer.ImageSharp2.csproj", "{F0725CCE-FDBD-4254-A923-DA0B6E76327F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "sandbox\Sandbox.csproj", "{D24598F9-C9A6-4322-BB24-93EDCD5BEE3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{429F8883-BA1F-4EE3-AA7F-393B0CFEE830}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0ECD67E-8614-43D6-9B9B-88551782EE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0ECD67E-8614-43D6-9B9B-88551782EE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0ECD67E-8614-43D6-9B9B-88551782EE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0ECD67E-8614-43D6-9B9B-88551782EE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0C9D1B-AD6C-4159-BA84-8E4BBF439B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0C9D1B-AD6C-4159-BA84-8E4BBF439B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0C9D1B-AD6C-4159-BA84-8E4BBF439B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0C9D1B-AD6C-4159-BA84-8E4BBF439B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0E4C10-5BD2-4623-958F-1E53239E9C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0E4C10-5BD2-4623-958F-1E53239E9C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0E4C10-5BD2-4623-958F-1E53239E9C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0E4C10-5BD2-4623-958F-1E53239E9C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0725CCE-FDBD-4254-A923-DA0B6E76327F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0725CCE-FDBD-4254-A923-DA0B6E76327F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0725CCE-FDBD-4254-A923-DA0B6E76327F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0725CCE-FDBD-4254-A923-DA0B6E76327F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24598F9-C9A6-4322-BB24-93EDCD5BEE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24598F9-C9A6-4322-BB24-93EDCD5BEE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24598F9-C9A6-4322-BB24-93EDCD5BEE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24598F9-C9A6-4322-BB24-93EDCD5BEE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

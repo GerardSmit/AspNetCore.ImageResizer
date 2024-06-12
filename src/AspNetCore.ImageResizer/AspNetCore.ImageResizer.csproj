@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <AssemblyName>GerardSmit.AspNetCore.ImageResizer</AssemblyName>
+        <RootNamespace>GerardSmit.AspNetCore.ImageResizer</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>GerardSmit.AspNetCore.ImageResizer</PackageId>
+        <Description>Simple image resizer for ASP.NET Core.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+</Project>

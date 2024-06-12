@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\src\AspNetCore.ImageResizer.ImageSharp2\AspNetCore.ImageResizer.ImageSharp2.csproj" />
+      <ProjectReference Include="..\src\AspNetCore.ImageResizer.ImageSharp3\AspNetCore.ImageResizer.ImageSharp3.csproj" />
+      <ProjectReference Include="..\src\AspNetCore.ImageResizer.Skia\AspNetCore.ImageResizer.Skia.csproj" />
+      <ProjectReference Include="..\src\AspNetCore.ImageResizer\AspNetCore.ImageResizer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\photo.jpg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="temp\image_resizer\" />
+    </ItemGroup>
+
+</Project>
